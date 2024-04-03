@@ -1,0 +1,39 @@
+Animated Sidebar
+https://youtu.be/Ul4KOXNQJSk
+
+*) Create project dir: /var/www/html/vuejs/animated_sidebar/
+*) cd /var/www/html/vuejs/animated_sidebar/
+*) npx create-vue@latest .
+*) No to all options (except vue-router).
+*) npm i
+*) npm run dev
+
+
+https://github.com/google/material-design-icons
+
+Copied from the above URL:
+<link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+
+1) Paste into index.html
+
+
+From google fonts (https://fonts.google.com) get code for 'Fira Sans':
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+2) Paste above the previous URL.
+
+3) Add Fira Sans: CSS classes to 'src/assets/fira_sans.css' and add link to 'src/main.js'.
+   import './assets/fira_sans.css'
+
+4) Install sass: $ npm add -D sass
+
+
+
+
+
+
+QR CODE
+https://goqr.me/api
